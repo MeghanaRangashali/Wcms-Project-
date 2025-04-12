@@ -14,30 +14,41 @@ Task done by
 
 # Aditya Mahajan
 1) Scatter plot chart
+
 ![Scatterplot](scatterplot.png)
+
 2) Box plot chart
 !![BoxPlotChart](boxplotChart.png)
 
 
 # Sunil Kumar Pasupuleti
+
 1) Bubble chart
+   
 ![Bubblechart](bubblechart.png)
-2) Horizontal Bar chart  
- ![Bubblechart](horizontalBarChart.png)
+
+2) Horizontal Bar chart
+
+![Bubblechart](horizontalBarChart.png)
 
 
 # Meghana Rangashali
 1) Donut chart
+
 ![DonutChart](donutchart.png)
 
 2) Line chart
+   
  ![linechart](linechart.png)
 
 # Sahibpreet Singh
+
 1) Bar chart
+   
 ![Barchart](barchart.png)
 
 2) Pie chart
+3) 
  ![Piechart](piechart.png)
 
 
