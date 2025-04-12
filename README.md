@@ -18,6 +18,7 @@ Task done by
 ![Scatterplot](scatterplot.png)
 
 2) Box plot chart
+   
 !![BoxPlotChart](boxplotChart.png)
 
 
@@ -48,7 +49,7 @@ Task done by
 ![Barchart](barchart.png)
 
 2) Pie chart
-3) 
+
  ![Piechart](piechart.png)
 
 
