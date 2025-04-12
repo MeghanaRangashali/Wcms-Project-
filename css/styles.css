@@ -1,0 +1,183 @@
+/* Global styles */
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f6f8;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #1e88e5;
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+/* Filter Section */
+.filter-controls {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.filter-controls label {
+  font-weight: bold;
+  font-size: 1rem;
+  margin-right: 8px;
+}
+
+.filter-controls select {
+  padding: 6px 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Charts Layout */
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.chart-section {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  position: relative;
+}
+
+/* Tooltip */
+.tooltip {
+  position: absolute;
+  background-color: #333;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  pointer-events: none;
+  z-index: 10;
+  display: none;
+  max-width: 300px;
+  white-space: nowrap;
+}
+
+/* Loader Overlay */
+.loader-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.8);
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+#bubbleChart {
+  overflow: hidden;
+  width: 100%;
+}
+
+#bubbleChart svg {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 360px;
+  height: 360px;
+}
+
+
+
+
+
+
+
+
+
+/*Style for Scatter Plot by Aditya Mahajan*/
+#scatterPlot {
+  overflow: hidden;
+  width: 100%;
+  /* margin: 0 auto; */
+}
+
+
+#scatterPlot svg {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 360px;
+
+  height: 360px;
+}
+
+/* Dots showing up on the screen*/
+
+.scatter-circle {
+  fill: #ff4444;
+  opacity: 0.7;
+}
+
+.scatter-circle:hover {
+  fill: #ff6666;
+  opacity: 1;
+}
+
+.scatter-axis-label {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.scatter-tooltip {
+  position: absolute;
+  background-color: #18d322;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  pointer-events: none;
+  z-index: 10;
+  display: none;
+}
+
+/* Trend line  showing up on the screen*/
+
+.trend-line {
+  stroke: #18d322;
+  stroke-width: 2px;
+}
+
+
+#boxPlot {
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#boxPlot svg {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 800px;
+  height: 500px;
+}

@@ -1,0 +1,568 @@
+{
+  "global": {
+    "cases": 277303091,
+    "deaths": 5657360,
+    "recovered": 225025645,
+    "active": 46620086
+  },
+  "countries": [
+    {
+      "country": "United States",
+      "cases": 5295455,
+      "deaths": 82974,
+      "recovered": 4682350,
+      "continent": "North America"
+    },
+    {
+      "country": "India",
+      "cases": 5755063,
+      "deaths": 86255,
+      "recovered": 5467086,
+      "continent": "Asia"
+    },
+    {
+      "country": "Brazil",
+      "cases": 4512805,
+      "deaths": 45552,
+      "recovered": 3665064,
+      "continent": "South America"
+    },
+    {
+      "country": "Russia",
+      "cases": 8901745,
+      "deaths": 203823,
+      "recovered": 7691620,
+      "continent": "Europe"
+    },
+    {
+      "country": "France",
+      "cases": 7948999,
+      "deaths": 181395,
+      "recovered": 6274790,
+      "continent": "Europe"
+    },
+    {
+      "country": "United Kingdom",
+      "cases": 8147063,
+      "deaths": 96017,
+      "recovered": 6383264,
+      "continent": "Europe"
+    },
+    {
+      "country": "Germany",
+      "cases": 7632472,
+      "deaths": 196944,
+      "recovered": 5671671,
+      "continent": "Europe"
+    },
+    {
+      "country": "Turkey",
+      "cases": 1949757,
+      "deaths": 50458,
+      "recovered": 1799520,
+      "continent": "Europe"
+    },
+    {
+      "country": "Italy",
+      "cases": 4823144,
+      "deaths": 132269,
+      "recovered": 3848281,
+      "continent": "Europe"
+    },
+    {
+      "country": "Spain",
+      "cases": 4540027,
+      "deaths": 53131,
+      "recovered": 3701307,
+      "continent": "Europe"
+    },
+    {
+      "country": "Argentina",
+      "cases": 2186181,
+      "deaths": 31663,
+      "recovered": 1997411,
+      "continent": "South America"
+    },
+    {
+      "country": "Colombia",
+      "cases": 3265345,
+      "deaths": 75044,
+      "recovered": 2494975,
+      "continent": "South America"
+    },
+    {
+      "country": "Iran",
+      "cases": 7004162,
+      "deaths": 79457,
+      "recovered": 5732559,
+      "continent": "Asia"
+    },
+    {
+      "country": "Poland",
+      "cases": 1902271,
+      "deaths": 27597,
+      "recovered": 1564868,
+      "continent": "Europe"
+    },
+    {
+      "country": "Mexico",
+      "cases": 9083255,
+      "deaths": 100995,
+      "recovered": 6421726,
+      "continent": "North America"
+    },
+    {
+      "country": "Ukraine",
+      "cases": 8026905,
+      "deaths": 156704,
+      "recovered": 5788258,
+      "continent": "Europe"
+    },
+    {
+      "country": "South Africa",
+      "cases": 1592216,
+      "deaths": 42982,
+      "recovered": 1173311,
+      "continent": "Africa"
+    },
+    {
+      "country": "Peru",
+      "cases": 2067485,
+      "deaths": 59962,
+      "recovered": 1516308,
+      "continent": "South America"
+    },
+    {
+      "country": "Netherlands",
+      "cases": 6228686,
+      "deaths": 67647,
+      "recovered": 5007368,
+      "continent": "Europe"
+    },
+    {
+      "country": "Indonesia",
+      "cases": 9440126,
+      "deaths": 114694,
+      "recovered": 7623098,
+      "continent": "Australia/Oceania"
+    },
+    {
+      "country": "Czech Republic",
+      "cases": 1853602,
+      "deaths": 47262,
+      "recovered": 1708657,
+      "continent": "Europe"
+    },
+    {
+      "country": "Chile",
+      "cases": 5882295,
+      "deaths": 144166,
+      "recovered": 5201243,
+      "continent": "South America"
+    },
+    {
+      "country": "Canada",
+      "cases": 4854566,
+      "deaths": 139593,
+      "recovered": 4513111,
+      "continent": "North America"
+    },
+    {
+      "country": "Philippines",
+      "cases": 9290294,
+      "deaths": 150485,
+      "recovered": 8392567,
+      "continent": "Australia/Oceania"
+    },
+    {
+      "country": "Belgium",
+      "cases": 5730855,
+      "deaths": 142529,
+      "recovered": 4097079,
+      "continent": "Europe"
+    },
+    {
+      "country": "Sweden",
+      "cases": 6488456,
+      "deaths": 168915,
+      "recovered": 5234796,
+      "continent": "Europe"
+    },
+    {
+      "country": "Pakistan",
+      "cases": 2617278,
+      "deaths": 36202,
+      "recovered": 2191721,
+      "continent": "Asia"
+    },
+    {
+      "country": "Iraq",
+      "cases": 9657792,
+      "deaths": 281518,
+      "recovered": 7420365,
+      "continent": "Australia/Oceania"
+    },
+    {
+      "country": "Romania",
+      "cases": 5288920,
+      "deaths": 67601,
+      "recovered": 4568731,
+      "continent": "Europe"
+    },
+    {
+      "country": "Bangladesh",
+      "cases": 9137878,
+      "deaths": 250193,
+      "recovered": 7639394,
+      "continent": "Asia"
+    },
+    {
+      "country": "Japan",
+      "cases": 4589292,
+      "deaths": 77009,
+      "recovered": 4009229,
+      "continent": "Asia"
+    },
+    {
+      "country": "Malaysia",
+      "cases": 9916035,
+      "deaths": 165168,
+      "recovered": 7111381,
+      "continent": "Australia/Oceania"
+    },
+    {
+      "country": "Israel",
+      "cases": 768342,
+      "deaths": 14679,
+      "recovered": 624751,
+      "continent": "Asia"
+    },
+    {
+      "country": "Portugal",
+      "cases": 8713119,
+      "deaths": 229904,
+      "recovered": 6121283,
+      "continent": "Europe"
+    },
+    {
+      "country": "Thailand",
+      "cases": 1227665,
+      "deaths": 24378,
+      "recovered": 1129728,
+      "continent": "Asia"
+    },
+    {
+      "country": "Hungary",
+      "cases": 686003,
+      "deaths": 17600,
+      "recovered": 620219,
+      "continent": "Europe"
+    },
+    {
+      "country": "Switzerland",
+      "cases": 6301764,
+      "deaths": 138483,
+      "recovered": 5413400,
+      "continent": "Europe"
+    },
+    {
+      "country": "Austria",
+      "cases": 943830,
+      "deaths": 24385,
+      "recovered": 780241,
+      "continent": "Europe"
+    },
+    {
+      "country": "Serbia",
+      "cases": 7520447,
+      "deaths": 201558,
+      "recovered": 7061911,
+      "continent": "Europe"
+    },
+    {
+      "country": "Norway",
+      "cases": 9455962,
+      "deaths": 219643,
+      "recovered": 7782047,
+      "continent": "Europe"
+    },
+    {
+      "country": "Greece",
+      "cases": 6868454,
+      "deaths": 68902,
+      "recovered": 6120998,
+      "continent": "Europe"
+    },
+    {
+      "country": "Denmark",
+      "cases": 1648032,
+      "deaths": 32358,
+      "recovered": 1241979,
+      "continent": "Europe"
+    },
+    {
+      "country": "Ireland",
+      "cases": 7821539,
+      "deaths": 146997,
+      "recovered": 6102875,
+      "continent": "Europe"
+    },
+    {
+      "country": "Finland",
+      "cases": 1681808,
+      "deaths": 23765,
+      "recovered": 1314112,
+      "continent": "Europe"
+    },
+    {
+      "country": "Singapore",
+      "cases": 8488640,
+      "deaths": 209485,
+      "recovered": 6222457,
+      "continent": "Asia"
+    },
+    {
+      "country": "New Zealand",
+      "cases": 9210640,
+      "deaths": 191828,
+      "recovered": 7449561,
+      "continent": "Australia/Oceania"
+    },
+    {
+      "country": "Australia",
+      "cases": 1241786,
+      "deaths": 36275,
+      "recovered": 1026050,
+      "continent": "Australia/Oceania"
+    },
+    {
+      "country": "South Korea",
+      "cases": 9659701,
+      "deaths": 276095,
+      "recovered": 8264566,
+      "continent": "Asia"
+    },
+    {
+      "country": "Vietnam",
+      "cases": 1783079,
+      "deaths": 37707,
+      "recovered": 1414484,
+      "continent": "Asia"
+    },
+    {
+      "country": "Egypt",
+      "cases": 7671855,
+      "deaths": 207114,
+      "recovered": 5741874,
+      "continent": "Africa"
+    }
+  ],
+  "historical": {
+    "United States": {
+      "timeline": {
+        "cases": {
+          "2024-04-01": 1003825,
+          "2024-04-02": 1011493,
+          "2024-04-03": 1013357,
+          "2024-04-04": 1014642,
+          "2024-04-05": 1019142,
+          "2024-04-06": 1026034,
+          "2024-04-07": 1035692,
+          "2024-04-08": 1037144,
+          "2024-04-09": 1044649,
+          "2024-04-10": 1050688,
+          "2024-04-11": 1052929,
+          "2024-04-12": 1056583,
+          "2024-04-13": 1062109,
+          "2024-04-14": 1067175,
+          "2024-04-15": 1069511,
+          "2024-04-16": 1070911,
+          "2024-04-17": 1079778,
+          "2024-04-18": 1085010,
+          "2024-04-19": 1093219,
+          "2024-04-20": 1098004,
+          "2024-04-21": 1102577,
+          "2024-04-22": 1107055,
+          "2024-04-23": 1112686,
+          "2024-04-24": 1119901,
+          "2024-04-25": 1126269,
+          "2024-04-26": 1130579,
+          "2024-04-27": 1140422,
+          "2024-04-28": 1145414,
+          "2024-04-29": 1149021,
+          "2024-04-30": 1158565
+        }
+      }
+    },
+    "India": {
+      "timeline": {
+        "cases": {
+          "2024-04-01": 1005960,
+          "2024-04-02": 1009188,
+          "2024-04-03": 1016470,
+          "2024-04-04": 1021918,
+          "2024-04-05": 1029987,
+          "2024-04-06": 1033914,
+          "2024-04-07": 1042324,
+          "2024-04-08": 1051049,
+          "2024-04-09": 1057074,
+          "2024-04-10": 1064550,
+          "2024-04-11": 1068512,
+          "2024-04-12": 1069625,
+          "2024-04-13": 1071965,
+          "2024-04-14": 1074166,
+          "2024-04-15": 1079639,
+          "2024-04-16": 1084552,
+          "2024-04-17": 1093577,
+          "2024-04-18": 1101442,
+          "2024-04-19": 1110400,
+          "2024-04-20": 1117165,
+          "2024-04-21": 1126588,
+          "2024-04-22": 1130618,
+          "2024-04-23": 1138384,
+          "2024-04-24": 1147999,
+          "2024-04-25": 1156696,
+          "2024-04-26": 1158839,
+          "2024-04-27": 1165442,
+          "2024-04-28": 1166845,
+          "2024-04-29": 1169309,
+          "2024-04-30": 1175984
+        }
+      }
+    },
+    "Brazil": {
+      "timeline": {
+        "cases": {
+          "2024-04-01": 1004305,
+          "2024-04-02": 1008150,
+          "2024-04-03": 1017668,
+          "2024-04-04": 1020237,
+          "2024-04-05": 1026628,
+          "2024-04-06": 1031880,
+          "2024-04-07": 1035123,
+          "2024-04-08": 1044589,
+          "2024-04-09": 1050326,
+          "2024-04-10": 1055089,
+          "2024-04-11": 1058188,
+          "2024-04-12": 1065360,
+          "2024-04-13": 1073837,
+          "2024-04-14": 1079775,
+          "2024-04-15": 1084678,
+          "2024-04-16": 1091856,
+          "2024-04-17": 1097963,
+          "2024-04-18": 1104752,
+          "2024-04-19": 1111718,
+          "2024-04-20": 1121082,
+          "2024-04-21": 1129596,
+          "2024-04-22": 1133727,
+          "2024-04-23": 1140229,
+          "2024-04-24": 1148052,
+          "2024-04-25": 1157393,
+          "2024-04-26": 1161170,
+          "2024-04-27": 1170335,
+          "2024-04-28": 1180170,
+          "2024-04-29": 1187339,
+          "2024-04-30": 1196509
+        }
+      }
+    },
+    "Germany": {
+      "timeline": {
+        "cases": {
+          "2024-04-01": 1004622,
+          "2024-04-02": 1010895,
+          "2024-04-03": 1019420,
+          "2024-04-04": 1022680,
+          "2024-04-05": 1028904,
+          "2024-04-06": 1034129,
+          "2024-04-07": 1043681,
+          "2024-04-08": 1047159,
+          "2024-04-09": 1052260,
+          "2024-04-10": 1054297,
+          "2024-04-11": 1056565,
+          "2024-04-12": 1062930,
+          "2024-04-13": 1070521,
+          "2024-04-14": 1077729,
+          "2024-04-15": 1085892,
+          "2024-04-16": 1090483,
+          "2024-04-17": 1100389,
+          "2024-04-18": 1102587,
+          "2024-04-19": 1112015,
+          "2024-04-20": 1121426,
+          "2024-04-21": 1130201,
+          "2024-04-22": 1138053,
+          "2024-04-23": 1140353,
+          "2024-04-24": 1149552,
+          "2024-04-25": 1158277,
+          "2024-04-26": 1166353,
+          "2024-04-27": 1171783,
+          "2024-04-28": 1176353,
+          "2024-04-29": 1179364,
+          "2024-04-30": 1187412
+        }
+      }
+    },
+    "Australia": {
+      "timeline": {
+        "cases": {
+          "2024-04-01": 1001789,
+          "2024-04-02": 1007288,
+          "2024-04-03": 1011531,
+          "2024-04-04": 1019531,
+          "2024-04-05": 1026479,
+          "2024-04-06": 1030148,
+          "2024-04-07": 1037820,
+          "2024-04-08": 1042845,
+          "2024-04-09": 1047546,
+          "2024-04-10": 1054589,
+          "2024-04-11": 1061588,
+          "2024-04-12": 1071129,
+          "2024-04-13": 1079572,
+          "2024-04-14": 1088082,
+          "2024-04-15": 1093730,
+          "2024-04-16": 1100759,
+          "2024-04-17": 1109813,
+          "2024-04-18": 1116833,
+          "2024-04-19": 1122524,
+          "2024-04-20": 1129789,
+          "2024-04-21": 1133160,
+          "2024-04-22": 1142570,
+          "2024-04-23": 1148947,
+          "2024-04-24": 1152027,
+          "2024-04-25": 1153521,
+          "2024-04-26": 1155898,
+          "2024-04-27": 1158556,
+          "2024-04-28": 1162818,
+          "2024-04-29": 1169011,
+          "2024-04-30": 1172192
+        }
+      }
+    }
+  },
+  "continents": [
+    {
+      "continent": "Asia",
+      "cases": 51031100
+    },
+    {
+      "continent": "Europe",
+      "cases": 131103860
+    },
+    {
+      "continent": "Africa",
+      "cases": 9264071
+    },
+    {
+      "continent": "North America",
+      "cases": 19233276
+    },
+    {
+      "continent": "South America",
+      "cases": 17914111
+    },
+    {
+      "continent": "Australia/Oceania",
+      "cases": 48756673
+    }
+  ]
+}

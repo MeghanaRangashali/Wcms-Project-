@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>COVID-19 Dashboard</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <header>
+    <h1>COVID-19 Interactive Dashboard (D3.js)</h1>
+  </header>
+  <br />
+  <section class="filter-controls">
+    <label for="continentFilter">Filter by Continent:</label>
+    <select id="continentFilter">
+      <option value="all">All</option>
+      <option value="Asia">Asia</option>
+      <option value="Europe">Europe</option>
+      <option value="Africa">Africa</option>
+      <option value="North America">North America</option>
+      <option value="South America">South America</option>
+      <option value="Australia/Oceania">Australia/Oceania</option>
+    </select>
+  </section>
+
+  <div id="globalLoader" class="loader-overlay">
+    <dotlottie-player src="https://lottie.host/0a33ca42-d1fd-4b9b-9a93-400f0323f24a/5Ba31Tcib6.lottie"
+      background="transparent" speed="1" style="width: 500px; height: 500px" loop autoplay></dotlottie-player>
+  </div>
+
+  <main>
+    <section id="bubbleChart" class="chart-section"></section>
+    <section id="horizontalBarChart" class="chart-section"></section>
+    <section id="barChart" class="chart-section"></section>
+
+    <section id="pieChart" class="chart-section"></section>
+    <section id="lineChart" class="chart-section"></section>
+    <section id="donutChart" class="chart-section"></section>
+    <!-- //Made by Aditya Mahajan -->
+    <section id="scatterPlot" class="chart-section"></section>
+    <section id="boxPlot" class="chart-section"></section>
+
+  </main>
+
+  <div id="tooltip" class="tooltip"></div>
+
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+
+  <script src="js/config.js"></script>
+  <script src="js/api.js"></script>
+  <!-- Filter Affected -->
+  <script src="js/charts/barChart.js"></script>
+  <script src="js/charts/bubbleChart.js"></script>
+  <script src="js/charts/horizontalBarChart.js"></script>
+
+
+  <!--  -->
+  <script src="js/charts/pieChart.js"></script>
+  <script src="js/charts/lineChart.js"></script>
+  <script src="js/charts/donutChart.js"></script>
+
+  <!-- //Made by Aditya Mahajan -->
+  <script src="js/charts/scatterplot_AdityaMahajan.js"></script>
+  <script src="js/charts/boxPlotChart_AdityaMahajan.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
