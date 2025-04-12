@@ -19,7 +19,7 @@ Task done by
 
 2) Box plot chart
    
-!![BoxPlotChart](boxplotChart.png)
+![BoxPlotChart](boxplotChart.png)
 
 
 # Sunil Kumar Pasupuleti
