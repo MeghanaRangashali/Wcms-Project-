@@ -1,23 +1,29 @@
 function renderLineChart(country = "USA") {
+  //fetch historical data for the selected country
   fetchHistorical(country)
     .then((result) => {
+      //check if data is available
       if (!result || !result.timeline || !result.timeline.cases) {
         throw new Error(`No historical data available for ${country}`);
       }
 
+      //extract timeline data
       const timeline = result.timeline.cases;
       const dates = Object.keys(timeline);
       const values = Object.values(timeline);
 
+      //calculate daily new cases based on the different from the previous day
       const cases = dates.map((d, i) => ({
         date: new Date(d),
         cases: i === 0 ? 0 : values[i] - values[i - 1],
       }));
 
+      //set margins ,width and height for the chart
       const margin = { top: 20, right: 20, bottom: 50, left: 60 };
       const width = 800 - margin.left - margin.right;
       const height = 400 - margin.top - margin.bottom;
 
+      //create svg container for the line chart
       const svg = d3
         .select("#lineChart")
         .append("svg")
@@ -31,6 +37,7 @@ function renderLineChart(country = "USA") {
         .append("g")
         .attr("transform", `translate(${margin.left},${margin.top})`);
 
+      //define x and y scales
       const x = d3
         .scaleTime()
         .domain(d3.extent(cases, (d) => d.date))
@@ -42,6 +49,7 @@ function renderLineChart(country = "USA") {
         .nice()
         .range([height, 0]);
 
+      //define the line generator function
       const line = d3
         .line()
         .x((d) => x(d.date))
